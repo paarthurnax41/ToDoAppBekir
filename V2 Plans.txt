@@ -1,0 +1,18 @@
+1. Fix Layout Issues in different Devices (Constrain Views to each other better)+
+
+2. Add a DateTimePicker and AlarmManager and Create a new Table in DB for DateTime+
+
+3. Add 3 different Language Versions (Georgian,Turkish,French)+
+
+3. Send a Notification to the Phone 2 Hours before the Scheduled ToDo+
+
+5. Try to write Variables, Methods and Classes in English and not Denglish and
+   try to name and order them in a Cleaner more Understandable way (Clean Code).
+
+6. Teachers suggestion , add some kind of WebService where the user can reach his Data and
+   Download them on Different Devices, my idea is using FireBase for it but
+   im not sure if my knowledge will be enough for it or even how i can implement 
+   it. 
+
+
+

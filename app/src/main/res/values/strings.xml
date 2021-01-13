@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ToDoAppBekir</string>
+    <string name="empty_list_text">Keine Einträge gefunden</string>
+    <string name="add_rekord">Add</string>
+    <string name="enter_name">Name</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="enter_content">Content</string>
+    <string name="title_activity_add_toDo">AddtoDoActivity</string>
+</resources>

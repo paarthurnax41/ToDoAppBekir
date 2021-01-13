@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EEDB"
+    tools:context=".AddToDoActivity">
+
+    <EditText
+        android:id="@+id/toDoNameEditTXT"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="159dp"
+        android:ems="10"
+        android:hint="Titel"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/cancelButton"
+        app:layout_constraintEnd_toStartOf="@+id/toDoContentEditTXT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/toDoContentEditTXT"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="113dp"
+        android:ems="10"
+        android:hint="Was"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/toDoNameEditTXT"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/addButtonAdd"
+        app:layout_constraintStart_toEndOf="@+id/cancelButton"
+        app:layout_constraintTop_toBottomOf="@+id/toDoContentEditTXT"
+        app:srcCompat="@drawable/beartranslatorrr" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="129dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="49dp"
+        android:backgroundTint="#F3EEDB"
+        android:fontFamily="@font/disneyheroic"
+        android:onClick="cancelBtn"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toDoNameEditTXT" />
+
+    <Button
+        android:id="@+id/addButtonAdd"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="49dp"
+        android:backgroundTint="#F3EEDB"
+        android:fontFamily="@font/disneyheroic"
+        android:onClick="addBtnAdd"
+        android:text="Add"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
